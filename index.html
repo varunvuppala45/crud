@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>CRUD</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
+    <script src="crud.js"></script>
+</head>
+<body>
+    <h3>CRUD OPERATIONS</h3>
+    Name of the student : <input type="text" id="sname"><br><br>
+    Roll number : <input type="text" id="rollno"><br><br>
+    <button id="insert" onclick="insertData()">INSERT</button>
+    <button id="delete" onclick="deleteData()">DELETE</button>
+    <button id="update" onclick="updateData()">UPDATE RNO</button>
+    <button id="display" onclick="displayData()">DISPLAY</button><br><br>
+
+    <div id="table1"></div><br>
+</body>
